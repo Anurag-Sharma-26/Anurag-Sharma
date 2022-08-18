@@ -62,6 +62,7 @@ header{
 }
 #abouthead{
   margin-left:10px;
+  font-weight: bold;
 }
 .aboutmsg{
   width:600px;
