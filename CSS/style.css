@@ -1,6 +1,7 @@
 body{
   background-color: #ffffff;
-  background-image: url(../Images/pexels-pixabay-531880.jpg);
+  background-image: url(../Images/bgimage.jpg);
+  background-position: 85%;
   margin:0;
 }
 header{
@@ -12,41 +13,103 @@ header{
   width: 90%;
   margin: auto;
 }
-.logo {
-  padding-top: 30px;
+.col-3 {
+  width: 100%;
+  float: left;
 }
 .menu {
-  margin-top: 32px;
+  margin-top: 17px;
+  color:white;
+  padding:15px;
+  list-style:none;
 }
 .menu li {
   list-style-type: none;
   display: inline;
-  background-color: #050505;
-  text-emphasis-color:rgb(32, 13, 58);
-  float:left;
-  margin-left:60px;
-  font-size:20px;
-  border-radius:20px;
-  padding:15px;
+  margin-left:80px;
+  font-size:22px;
+  border-radius:8px;
+  padding:7px;
 }
 .menu li:hover{
   background-color:rgb(69, 219, 55);
   
 }
-.navbar{
-  width:100%;
-  height:80px;
-  /* background-color:#a9e914; */
+.col-2 {
+  padding-top: 60px;
+  float: left;
+  width: 48%;
+}
+#showcase1-container {
+  padding-top: 60px;
+  width: 100%;
+  clear: both;
+}
+.showcase {
+  width: 90%;
+  margin: auto;
+  overflow: auto;
+}
+.feature-text {
+  padding-left: 120px;
+  padding-top: 20px;
+}
+.aboutmsgtxt{
+  font-size:20px;
+  text-align:left;
+  color: #fcf80d;
+
+}
+#abouthead{
+  margin-left:10px;
+}
+.aboutmsg{
+  width:600px;
+  border-radius:30px;
+  height:400px;
+  color: #fcf80d;
+}
+.myimg{
+  padding-left: 50px;
+  width:250px;
+  height:300px;
+  float:left;
   opacity:90%;
-
+  border-bottom-left-radius:30px;
+  border-top-left-radius:30px;
 }
-ul{
-  margin-top: 32px;
-  color:white;
-  padding:15px;
-  list-style:none;
-
+.mypic{
+  width:250px;
+  height:250px;
+  border-radius: 250px;
+  margin-left:0;
+  margin-top:30px;
 }
+.myquote{
+  padding-left: 50px;
+  width:450px;
+  height:300px;
+  float:left;
+  border-radius:30px;
+  line-height:20px;
+  padding-top:90px;
+  color: #fcf80d;
+}
+#mecheck{
+  padding-left: 260px;
+  font-weight:bold;
+  font-size:20px;
+  text-align:right;
+  margin-right:40px;
+}
+h3{
+  font-size:20px;
+  text-align:right;
+  margin-right:40px;
+}
+
+
+
 .explist{
   float:left;
   margin-top:60px;
@@ -61,11 +124,9 @@ ul{
   float:left;
   margin-left:60px;
   font-size:20px;
-  /* background-color: #8e8e8e; */
   color: #ebd9d9;
   padding:10px;
   border-radius:20px;
-  /* opacity:90%; */
 }
 .menulist:hover{
   background-color:blue;
@@ -194,53 +255,11 @@ color:white;
   font-size:20px;
   list-style:circle;
 }
-.myimg{
-  width:250px;
-  height:300px;
-  margin:0px;
-  background-color:#747e7c;
-  float:left;
-  opacity:90%;
-  border-bottom-left-radius:30px;
-  border-top-left-radius:30px;
-}
-.mypic{
-  width:200px;
-  height:240px;
-  border-radius: 250px;
-  margin-left:0;
-  margin-top:30px;
-
-
-}
-.myquote{
-  width:450px;
-  height:300px;
-  float:left;
-  border-radius:30px;
-  line-height:20px;
-  padding-top:100px;
-}
 footer{
   margin:0;
-  margin-top:400px;
-  width:100%;
-  height:250px;
-  background-color:#1C2833;
-
-}
-.aboutmsgtxt{
-  font-size:20px;
-  text-align:left;
-
-}
-.aboutmsg{
   margin-top:200px;
-  width:600px;
-  opacity:80%;
-  background-color:#6495ED ;
-  border-radius:30px;
-  height:400px;
+  width:100%;
+  height:130px;
 }
 .fmail{
     text-align: center;
@@ -266,28 +285,20 @@ footer{
   border-color:blue;
 }
 .map{
-
   height:150px;
   width:100%;
   opacity:70%;
 }
 .copy{
-margin-top:10px;
-color:white;
+  margin-top:10px;
+  color:white;
+  /* color: #17e644; */
+  font-size: 18px;
 }
-
-
 h2{
-    margin-left:10px;
-}
-
-h3{
-  font-size:20px;
-  text-align:right;
-  margin-right:40px;
+  margin-left:10px;
 }
 p{
-
   margin-left:10px;
 }
 #firstname{
@@ -325,7 +336,6 @@ border-radius:10px;
    width:200px;
    height:50px;
 }
-
 #submit{
   background-color:blue;
   color:white;
